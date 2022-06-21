@@ -83,8 +83,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .main__three-block {
+    flex-direction: column;
+  }
+  .main__two-block {
     flex-direction: column;
   }
 }
@@ -134,12 +137,11 @@ h1, h2, h3, h4, h5, h6 {
 .main .block {
   margin: 0 10px;
   padding: 20px;
-  background-color: white;
   box-shadow: 0 0 30px silver;
 }
 .main .block__img {
   height: 250px;
-  background-color: gold;
+  background-color: black;
 }
 .main .block__text {
   margin-top: 5%;
