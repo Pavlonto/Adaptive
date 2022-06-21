@@ -84,9 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
-  .main__blocks {
+  .main__three-block {
     flex-direction: column;
-    display: inline-flex;
   }
 }
 .header {
@@ -109,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 .header .menu__body .menu__link {
-  display: inline-block;
+  display: block;
   width: 100px;
   height: 20px;
   background-color: gold;
